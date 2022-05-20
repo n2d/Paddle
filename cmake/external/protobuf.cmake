@@ -217,7 +217,7 @@ FUNCTION(build_protobuf TARGET_NAME BUILD_FOR_HOST)
         SET(PROTOBUF_TAG         01a05a53f40ca2ac5f0af10c6cc0810bee39b792)
     else()
         SET(PROTOBUF_REPOSITORY  ${GIT_URL}/protocolbuffers/protobuf.git)
-        SET(PROTOBUF_TAG         9f75c5aa851cd877fb0d93ccc31b8567a6706546)
+        SET(PROTOBUF_TAG         v3.20.1)
     endif()
 
     ExternalProject_Add(
